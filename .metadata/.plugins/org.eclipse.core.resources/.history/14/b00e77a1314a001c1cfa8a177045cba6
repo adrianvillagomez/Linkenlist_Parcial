@@ -1,0 +1,13 @@
+/*
+ * Arcades.c
+ *
+ *  Created on: 20 nov. 2021
+ *      Author: adrian
+ */
+
+
+Arcade arcade_new ()
+{
+	Arcade* pArcade = malloc(sizeof(Arcade));
+	return pArcade;
+}

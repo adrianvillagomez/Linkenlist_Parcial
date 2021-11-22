@@ -1,0 +1,20 @@
+/*
+ ============================================================================
+ Name        : ParcialLinkenlist.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	setbuf(stdout,NULL);
+	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+	//salon no id --no abm-- campo salon como un campo entra de salone
+	// ojo con el 6
+	return EXIT_SUCCESS;
+}

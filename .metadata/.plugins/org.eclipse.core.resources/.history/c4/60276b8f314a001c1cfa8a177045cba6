@@ -1,0 +1,27 @@
+/*
+ * Arcades.h
+ *
+ *  Created on: 20 nov. 2021
+ *      Author: adrian
+ */
+
+#ifndef ARCADES_H_
+#define ARCADES_H_
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+typedef struct
+{
+    int id;
+    char nacionalidad[128];
+    int tipoDeSonido;
+    int cantidadJugadores;
+    int capacidadMaximaFichas;
+    char nombreDeSalonAlQuePertenece[128];
+    char nombreDelJuegoQueContiene[128];
+}Arcade;
+
+Arcade arcade_new ();
+
+#endif /* ARCADES_H_ */

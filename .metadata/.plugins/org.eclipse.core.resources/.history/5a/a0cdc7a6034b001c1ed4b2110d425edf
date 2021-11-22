@@ -1,0 +1,18 @@
+/*
+ * Controller.c
+ *
+ *  Created on: 20 nov. 2021
+ *      Author: adrian
+ */
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "Controller.h"
+
+int controller_addArcade(LinkedList* pArrayArcade)
+{
+	int rtn = -1;
+
+	return rtn;
+}
+

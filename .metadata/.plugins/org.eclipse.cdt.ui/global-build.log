@@ -1,4 +1,1 @@
-15:05:39 **** Rebuild of configuration Debug for project ParcialLinkenlist ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ParcialLinkenlist.o" "..\\src\\ParcialLinkenlist.c" 
-gcc -o ParcialLinkenlist.exe "src\\ParcialLinkenlist.o" 
+Info: Nothing to build for ParcialLinkenlist

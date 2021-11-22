@@ -1,0 +1,16 @@
+/*
+ * Controller.h
+ *
+ *  Created on: 20 nov. 2021
+ *      Author: adrian
+ */
+
+#ifndef CONTROLLER_H_
+#define CONTROLLER_H_
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "LinkedList.h"
+
+
+#endif /* CONTROLLER_H_ */

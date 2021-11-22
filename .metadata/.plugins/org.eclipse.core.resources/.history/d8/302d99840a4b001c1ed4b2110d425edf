@@ -1,0 +1,85 @@
+/*
+ * Controller.c
+ *
+ *  Created on: 20 nov. 2021
+ *      Author: adrian
+ */
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "Controller.h"
+
+int controller_addArcade(LinkedList* pArrayArcade)
+{
+	int rtn = -1;
+	Arcade* pArcade;
+	char auxNacionalidad[63];
+	int auxTipoDeSonido;
+	int auxCantidadJugadores;
+	int auxCapacidadMaximaFichas;
+	char auxNombreDeSalonAlQuePertenece[63];
+	char auxNombreDelJuegoQueContiene[63];
+	int auxId;
+	pArcade=arcade_new();
+	if(pArcade!=NULL && pArrayArcade!=NULL && auxNacionalidad!=NULL && auxNombreDeSalonAlQuePertenece!=NULL && auxNombreDelJuegoQueContiene!=NULL)
+	{
+		if(utn_getNombre(auxNacionalidad, 63, "Ingrese un nacionalidad: \n","Dato incorrecto\n",5)==0)
+		{
+			if(utn_getNumero(&auxTipoDeSonido, "Ingrese el tipo de Sonido: [1]Para Stereo [2]Para Mono \n", "Tipo de Sonido incorrecto \n", 1, 2, 5)==0)
+			{
+				if(utn_getNumero(&auxCantidadJugadores, "Ingrese Cantidad de Jugadores\n", "Dato invalido\n", 1, 50, 5)==0)
+				{
+					if(utn_getNumero(&auxCapacidadMaximaFichas, "Ingrese capacidad maxima de fichas\n", "Dato invalido\n", 1, 50, 5)==0)
+					{
+						if(utn_getText(auxNombreDeSalonAlQuePertenece, 63,"Ingrese nombre de salon al que pertenece\n", "Dato invalido\n",5)==0)
+						{
+							if(utn_getText(auxNombreDelJuegoQueContiene, 63, "Ingrese nombre del juego", "Dato invalido", 5)==0)
+							{
+								controller_asignarId(pArrayArcade,&auxId);
+								arcade_setId(pArcade, auxId);
+								arcade_setNacionalidad(pArcade, auxNacionalidad);
+								arcade_setTipoDeSonido(pArcade, auxTipoDeSonido);
+								arcade_setCantidadJugadores(pArcade, auxCantidadJugadores);
+								arcade_setCapacidadMaximaFichas(pArcade, auxCapacidadMaximaFichas);
+								arcade_setNombreDeSalonAlQuePertenece(pArcade, auxNombreDeSalonAlQuePertenece);
+								arcade_setNombreDelJuegoQueContiene(pArcade, auxNombreDelJuegoQueContiene);
+								ll_add(pArrayArcade,pArcade);
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+
+	return rtn;
+}
+int controller_asignarId(LinkedList* pArrayListArcade,int* numeroId)
+{
+	int rtn=-1;
+	Arcade* pArcade;
+	int i;
+	int idAux;
+	if(pArrayListArcade!=NULL)
+	{
+		if(ll_len(pArrayListArcade)==0)
+		{
+			*numeroId=501;
+		}else
+		{
+			for(i=0;i<ll_len(pArrayListArcade);i++)
+			{
+				pArcade=ll_get(pArrayListArcade, i);
+				arcade_getId(pArcade, &idAux);
+				if(i==0||*numeroId<idAux)
+				{
+					*numeroId=idAux;
+				}
+			}
+			*numeroId+=1;
+			rtn=0;
+		}
+	}
+	return rtn;
+}
