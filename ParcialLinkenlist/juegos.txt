@@ -1,21 +1,18 @@
-arkanoid
-asd
-asteroids
-bubble bobble
-castelvania
-double dragon
-frogger
-galaga
-mario
 metal slug
-mortal kombat
-out run
-pacman
-pong
+frogger
 space invaders
-star wars
 street fighter ii
-tetris
+pacman
 tron
+asteroids
 virtua cop
-sasdadadasdasdasd
+star wars
+mortal kombat
+arkanoid
+castelvania
+tetris
+pong
+out run
+galaga
+bubble bobble
+double dragon

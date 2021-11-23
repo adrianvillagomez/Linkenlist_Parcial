@@ -30,7 +30,7 @@ int main(void) {
 	setbuf(stdout,NULL);
 	int flag='y';
 	LinkedList* listaArcades = ll_newLinkedList();
-	controller_loadFromText("arcades.csv", listaArcades);
+	controller_loadFromText("pruebaD.csv", listaArcades);
 
 	do{
 		switch(menu())
@@ -38,7 +38,7 @@ int main(void) {
 			case 1:
 				if(controller_addArcade(listaArcades)==0)
 				{
-					controller_saveAsText("arcades.csv", listaArcades);
+					controller_saveAsText("pruebaD.csv", listaArcades);
 					printf("Alta con exito!Imprima la lista para ver los cambios.\n\n");
 				}else
 				{
@@ -49,7 +49,7 @@ int main(void) {
 			case 2:
 				if(controller_modificarArcade(listaArcades)==0)
 				{
-					controller_saveAsText("arcades.csv", listaArcades);
+					controller_saveAsText("pruebaD.csv", listaArcades);
 				}else
 				{
 					printf("Algo salio mal con la modificacion \n");
@@ -58,7 +58,7 @@ int main(void) {
 			case 3:
 				if(controller_removeArcade(listaArcades)==0)
 				{
-				controller_saveAsText("arcades.csv", listaArcades);
+				controller_saveAsText("pruebaD.csv", listaArcades);
 				}else
 				{
 					printf("Algo salio mal con la baja \n");
@@ -99,5 +99,9 @@ int main(void) {
 		}
 	}while(flag=='y');
 
+
+
+	//salon no id --no abm-- campo salon como un campo entra de salone
+	// ojo con el 6
 	return EXIT_SUCCESS;
 }
