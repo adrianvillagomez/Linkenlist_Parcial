@@ -1,0 +1,403 @@
+id,nacionalidad,tipo_sonido,cant_juga,fichas_max,salon,game
+25,China,STEREO,3,568,Salon VR,arkanoid
+58,China,MONO,3,676,Salon Carreras,arkanoid
+93,Philippines,STEREO,3,240,Salon Retro,arkanoid
+95,United States,MONO,2,436,Salon 6,arkanoid
+125,Greece,STEREO,3,404,Salon 4,arkanoid
+131,South Africa,MONO,2,580,Salon 5,arkanoid
+187,Comoros,STEREO,2,550,Salon 5,arkanoid
+188,Sweden,MONO,5,898,Salon Carreras,arkanoid
+251,Mongolia,MONO,3,348,Salon Carreras,arkanoid
+262,Nigeria,MONO,4,564,Salon 2021,arkanoid
+297,Senegal,STEREO,2,734,Salon 6,arkanoid
+335,Ukraine,MONO,3,432,Salon 4,arkanoid
+341,Russia,STEREO,4,458,Salon VR,arkanoid
+353,Japan,MONO,5,368,Salon 4,arkanoid
+369,United Kingdom,STEREO,4,404,Salon Carreras,arkanoid
+391,China,STEREO,4,846,Salon 4,arkanoid
+393,Philippines,STEREO,3,672,Salon Retro,arkanoid
+439,China,STEREO,3,402,Salon VR,arkanoid
+474,Indonesia,MONO,4,284,Salon 5,arkanoid
+488,Argentina,MONO,4,792,Salon VR,arkanoid
+492,Portugal,STEREO,5,398,Salon Carreras,arkanoid
+502,peru,MONO,20,4,2,asd
+28,Sweden,MONO,2,294,Salon Retro,asteroids
+30,France,MONO,4,960,Salon 1,asteroids
+36,Indonesia,STEREO,5,938,Salon 2021,asteroids
+73,China,MONO,4,334,Salon 2,asteroids
+77,Poland,STEREO,3,244,Salon 3,asteroids
+130,Argentina,STEREO,2,364,Salon 2021,asteroids
+136,Armenia,MONO,3,748,Salon 4,asteroids
+163,Russia,MONO,3,876,Salon 3,asteroids
+165,Venezuela,STEREO,5,396,Salon 5,asteroids
+168,Brazil,MONO,2,326,Salon 1,asteroids
+286,Poland,STEREO,4,478,Salon 5,asteroids
+331,China,STEREO,5,660,Salon Carreras,asteroids
+362,Democratic Republic of the Congo,MONO,2,762,Salon 6,asteroids
+420,Sweden,STEREO,2,366,Salon 3,asteroids
+442,Dominican Republic,MONO,4,548,Salon 4,asteroids
+482,Russia,STEREO,5,708,Salon 4,asteroids
+3,Philippines,STEREO,5,828,Salon Carreras,bubble bobble
+7,Indonesia,MONO,2,856,Salon 1,bubble bobble
+22,Philippines,STEREO,3,912,Salon 6,bubble bobble
+26,Cyprus,STEREO,3,964,Salon Retro,bubble bobble
+50,Portugal,MONO,4,588,Salon 3,bubble bobble
+94,China,STEREO,5,884,Salon Retro,bubble bobble
+99,Philippines,STEREO,4,548,Salon Retro,bubble bobble
+108,Russia,STEREO,3,954,Salon 6,bubble bobble
+124,China,MONO,2,368,Salon 2021,bubble bobble
+166,Sweden,MONO,2,394,Salon 1,bubble bobble
+174,South Africa,STEREO,5,756,Salon VR,bubble bobble
+178,Belarus,STEREO,2,850,Salon Carreras,bubble bobble
+179,Benin,MONO,3,476,Salon 1,bubble bobble
+184,Sweden,MONO,3,510,Salon 6,bubble bobble
+206,United States,STEREO,5,634,Salon 6,bubble bobble
+242,Indonesia,STEREO,4,924,Salon 2,bubble bobble
+254,China,STEREO,5,422,Salon 1,bubble bobble
+266,China,STEREO,2,276,Salon Carreras,bubble bobble
+270,Sweden,STEREO,3,712,Salon 6,bubble bobble
+274,Russia,STEREO,3,712,Salon 1,bubble bobble
+281,Greece,MONO,5,476,Salon 4,bubble bobble
+305,France,STEREO,5,534,Salon 6,bubble bobble
+320,Portugal,STEREO,3,664,Salon VR,bubble bobble
+365,Ethiopia,STEREO,4,976,Salon 2021,bubble bobble
+372,Russia,STEREO,4,442,Salon Retro,bubble bobble
+380,Indonesia,MONO,2,276,Salon 5,bubble bobble
+415,China,STEREO,3,824,Salon VR,bubble bobble
+446,Germany,STEREO,4,272,Salon VR,bubble bobble
+458,China,MONO,4,696,Salon VR,bubble bobble
+472,Iran,MONO,5,386,Salon 2,bubble bobble
+38,Philippines,MONO,2,374,Salon 5,castelvania
+65,Indonesia,MONO,4,520,Salon 1,castelvania
+80,Czech Republic,MONO,4,770,Salon Carreras,castelvania
+85,China,MONO,2,296,Salon 2021,castelvania
+103,China,MONO,3,464,Salon VR,castelvania
+114,Chile,STEREO,5,564,Salon 6,castelvania
+126,Bolivia,MONO,5,782,Salon 2021,castelvania
+155,China,MONO,3,794,Salon 6,castelvania
+183,Japan,MONO,2,568,Salon 4,castelvania
+198,Panama,STEREO,4,566,Salon Retro,castelvania
+248,United States,MONO,4,608,Salon 1,castelvania
+267,Mozambique,MONO,3,828,Salon VR,castelvania
+299,China,MONO,3,226,Salon 4,castelvania
+312,Indonesia,STEREO,2,436,Salon 6,castelvania
+322,Greece,MONO,5,286,Salon VR,castelvania
+343,Albania,MONO,2,750,Salon 6,castelvania
+349,Russia,STEREO,3,742,Salon VR,castelvania
+350,China,STEREO,2,494,Salon 5,castelvania
+403,Czech Republic,MONO,5,336,Salon Carreras,castelvania
+418,Russia,MONO,3,300,Salon Retro,castelvania
+435,China,MONO,3,680,Salon 4,castelvania
+485,France,MONO,4,284,Salon Carreras,castelvania
+493,Chad,MONO,5,372,Salon VR,castelvania
+29,Mauritius,STEREO,4,786,Salon 1,double dragon
+214,Indonesia,MONO,5,988,Salon VR,double dragon
+249,Greece,STEREO,2,690,Salon VR,double dragon
+258,Indonesia,MONO,2,464,Salon 2021,double dragon
+276,Indonesia,STEREO,2,446,Salon 2021,double dragon
+315,Czech Republic,MONO,3,220,Salon Carreras,double dragon
+327,Greece,STEREO,2,344,Salon 3,double dragon
+328,Brazil,STEREO,3,270,Salon 1,double dragon
+329,Albania,MONO,3,772,Salon 3,double dragon
+367,China,MONO,2,762,Salon 3,double dragon
+376,Martinique,STEREO,5,774,Salon 4,double dragon
+382,Peru,MONO,2,982,Salon 2,double dragon
+383,Indonesia,MONO,5,912,Salon VR,double dragon
+384,Japan,STEREO,2,268,Salon VR,double dragon
+396,China,MONO,4,878,Salon Carreras,double dragon
+397,Philippines,MONO,2,288,Salon 4,double dragon
+404,Indonesia,STEREO,4,702,Salon 3,double dragon
+405,Indonesia,MONO,5,788,Salon Retro,double dragon
+410,Russia,STEREO,5,322,Salon 3,double dragon
+425,Poland,STEREO,4,576,Salon 4,double dragon
+427,China,STEREO,5,332,Salon 2021,double dragon
+487,China,MONO,4,472,Salon 2021,double dragon
+500,Morocco,MONO,4,654,Salon VR,double dragon
+123,Nigeria,STEREO,5,780,Salon Retro,frogger
+142,France,MONO,5,988,Salon 2021,frogger
+156,Nepal,MONO,5,434,Salon 2021,frogger
+221,China,STEREO,2,878,Salon 3,frogger
+239,Brazil,MONO,2,422,Salon 6,frogger
+250,China,STEREO,3,670,Salon 3,frogger
+257,Russia,MONO,2,574,Salon 2021,frogger
+280,Russia,MONO,3,908,Salon VR,frogger
+285,Thailand,STEREO,3,520,Salon 4,frogger
+289,Sweden,MONO,2,454,Salon 3,frogger
+292,China,MONO,4,308,Salon VR,frogger
+303,Mexico,STEREO,5,394,Salon 3,frogger
+310,China,STEREO,3,290,Salon Retro,frogger
+355,Portugal,MONO,4,348,Salon 2,frogger
+389,Indonesia,STEREO,4,294,Salon 2021,frogger
+390,Liberia,MONO,3,446,Salon 6,frogger
+432,Ukraine,STEREO,5,946,Salon 3,frogger
+39,China,STEREO,3,784,Salon 2021,galaga
+48,Indonesia,MONO,3,744,Salon 1,galaga
+55,Iran,MONO,2,938,Salon VR,galaga
+70,Albania,STEREO,4,752,Salon VR,galaga
+78,Colombia,STEREO,3,454,Salon 1,galaga
+160,Malaysia,STEREO,5,884,Salon 2,galaga
+217,Portugal,STEREO,2,1000,Salon Carreras,galaga
+247,Iran,MONO,5,954,Salon Carreras,galaga
+279,Thailand,MONO,3,528,Salon Retro,galaga
+306,Nicaragua,STEREO,5,244,Salon 2,galaga
+346,Malaysia,STEREO,4,802,Salon VR,galaga
+363,Philippines,MONO,2,662,Salon 2,galaga
+379,Canada,MONO,4,200,Salon 2,galaga
+402,Philippines,STEREO,4,244,Salon 6,galaga
+416,South Africa,STEREO,2,576,Salon 1,galaga
+419,Portugal,STEREO,5,262,Salon 4,galaga
+423,Indonesia,STEREO,2,436,Salon 6,galaga
+445,Canada,STEREO,4,806,Salon 4,galaga
+449,China,MONO,5,952,Salon 4,galaga
+451,Finland,STEREO,4,670,Salon 2021,galaga
+460,Poland,MONO,5,576,Salon 2,galaga
+498,Mozambique,MONO,4,718,Salon 2021,galaga
+504,peru,MONO,3,3,salon 2,mario
+505,peru,MONO,20,20,salon 5,mario
+14,Indonesia,STEREO,2,694,Salon Carreras,metal slug
+43,Philippines,STEREO,5,992,Salon 5,metal slug
+72,Ecuador,STEREO,3,338,Salon Carreras,metal slug
+74,Sri Lanka,STEREO,2,614,Salon Carreras,metal slug
+102,Indonesia,MONO,3,310,Salon 2,metal slug
+110,Indonesia,STEREO,4,478,Salon 1,metal slug
+128,China,STEREO,5,916,Salon 6,metal slug
+139,Czech Republic,STEREO,3,272,Salon VR,metal slug
+171,Paraguay,MONO,5,622,Salon 2,metal slug
+175,Poland,MONO,5,270,Salon VR,metal slug
+199,Panama,STEREO,5,486,Salon 2,metal slug
+225,China,MONO,4,330,Salon 1,metal slug
+226,Philippines,MONO,4,816,Salon Retro,metal slug
+228,Indonesia,STEREO,3,454,Salon Retro,metal slug
+231,China,MONO,3,970,Salon 3,metal slug
+261,Ireland,STEREO,4,950,Salon 1,metal slug
+354,China,STEREO,3,724,Salon 2,metal slug
+368,China,MONO,5,308,Salon 4,metal slug
+443,Sweden,STEREO,2,708,Salon Retro,metal slug
+4,United States,STEREO,3,630,Salon 6,mortal kombat
+6,Indonesia,STEREO,2,962,Salon Retro,mortal kombat
+53,Indonesia,STEREO,4,884,Salon 3,mortal kombat
+116,Poland,MONO,3,346,Salon 6,mortal kombat
+140,Armenia,STEREO,4,792,Salon 1,mortal kombat
+143,China,MONO,5,666,Salon 2021,mortal kombat
+147,United States,MONO,2,842,Salon 2,mortal kombat
+181,United States,MONO,5,712,Salon 1,mortal kombat
+203,France,STEREO,4,410,Salon 2021,mortal kombat
+218,Russia,MONO,5,504,Salon 1,mortal kombat
+223,Ecuador,STEREO,3,552,Salon 2,mortal kombat
+227,Russia,STEREO,5,682,Salon 1,mortal kombat
+245,Ivory Coast,STEREO,3,526,Salon Retro,mortal kombat
+269,Venezuela,STEREO,2,698,Salon 6,mortal kombat
+323,China,STEREO,5,950,Salon 2021,mortal kombat
+381,Indonesia,STEREO,2,902,Salon 3,mortal kombat
+406,Philippines,MONO,2,812,Salon 3,mortal kombat
+454,Russia,MONO,5,780,Salon 4,mortal kombat
+463,China,MONO,2,958,Salon 2021,mortal kombat
+479,Indonesia,STEREO,3,296,Salon 4,mortal kombat
+490,Philippines,STEREO,5,384,Salon Retro,mortal kombat
+9,Russia,MONO,5,996,Salon 2021,out run
+15,Sweden,STEREO,3,868,Salon 3,out run
+27,Cuba,MONO,3,392,Salon VR,out run
+60,Uruguay,STEREO,2,760,Salon 6,out run
+71,Micronesia,STEREO,5,830,Salon VR,out run
+75,Argentina,MONO,3,356,Salon 1,out run
+76,China,STEREO,4,282,Salon 2021,out run
+119,China,STEREO,5,948,Salon 2021,out run
+132,Argentina,STEREO,2,872,Salon 2021,out run
+137,France,MONO,4,578,Salon 6,out run
+138,Indonesia,MONO,4,302,Salon 3,out run
+152,Argentina,STEREO,3,306,Salon VR,out run
+157,Estonia,MONO,2,602,Salon 2,out run
+169,Philippines,STEREO,5,376,Salon 4,out run
+191,Zimbabwe,STEREO,5,918,Salon 3,out run
+207,China,MONO,4,910,Salon 5,out run
+259,China,STEREO,2,322,Salon VR,out run
+283,Greece,MONO,2,258,Salon 1,out run
+288,Palestinian Territory,STEREO,4,824,Salon Retro,out run
+311,Finland,STEREO,5,270,Salon 5,out run
+333,China,MONO,4,622,Salon 2021,out run
+377,China,STEREO,2,422,Salon Retro,out run
+395,Indonesia,MONO,3,396,Salon 6,out run
+401,Germany,STEREO,2,974,Salon 3,out run
+441,Nauru,STEREO,2,898,Salon 3,out run
+32,Afghanistan,STEREO,3,232,Salon 3,pacman
+34,Russia,STEREO,5,602,Salon 6,pacman
+62,China,STEREO,5,908,Salon 1,pacman
+79,China,MONO,4,720,Salon 6,pacman
+113,China,STEREO,3,218,Salon 2021,pacman
+120,Mexico,STEREO,5,670,Salon VR,pacman
+154,Indonesia,MONO,2,664,Salon 2021,pacman
+177,French Guiana,STEREO,4,368,Salon 1,pacman
+196,Iran,MONO,5,388,Salon 3,pacman
+200,China,STEREO,2,760,Salon 1,pacman
+202,Afghanistan,STEREO,2,934,Salon Carreras,pacman
+204,Brazil,STEREO,2,226,Salon 6,pacman
+232,Dominica,STEREO,2,772,Salon Retro,pacman
+256,Mauritius,MONO,3,246,Salon 1,pacman
+319,France,STEREO,3,590,Salon 2,pacman
+339,France,STEREO,2,524,Salon 2021,pacman
+361,China,STEREO,5,702,Salon 4,pacman
+414,Chile,MONO,2,338,Salon Carreras,pacman
+429,China,STEREO,4,380,Salon 3,pacman
+444,Indonesia,MONO,2,268,Salon 5,pacman
+447,China,MONO,5,662,Salon 6,pacman
+448,Russia,STEREO,3,442,Salon 5,pacman
+456,Brazil,MONO,4,238,Salon Carreras,pacman
+457,Lithuania,MONO,3,422,Salon 4,pacman
+470,Nigeria,MONO,2,800,Salon 2,pacman
+477,Albania,MONO,4,200,Salon 3,pacman
+20,Brazil,MONO,3,686,Salon 3,pong
+37,Indonesia,STEREO,5,478,Salon Retro,pong
+40,Greece,MONO,5,446,Salon 4,pong
+41,Ireland,MONO,4,840,Salon Carreras,pong
+51,Uganda,MONO,3,606,Salon 5,pong
+107,Mexico,STEREO,4,944,Salon 5,pong
+135,China,STEREO,3,534,Salon 2,pong
+146,Slovenia,MONO,5,354,Salon 3,pong
+161,Czech Republic,STEREO,2,442,Salon Carreras,pong
+211,Hungary,MONO,2,710,Salon 2,pong
+233,Azerbaijan,STEREO,5,418,Salon 3,pong
+244,China,STEREO,4,350,Salon 6,pong
+255,Japan,STEREO,3,764,Salon Carreras,pong
+296,Sweden,STEREO,2,240,Salon Carreras,pong
+302,Bangladesh,STEREO,3,752,Salon 2021,pong
+340,Japan,MONO,2,454,Salon 4,pong
+347,Brazil,STEREO,3,756,Salon Carreras,pong
+356,Germany,MONO,5,998,Salon VR,pong
+360,China,STEREO,4,476,Salon VR,pong
+412,Ecuador,STEREO,3,476,Salon 4,pong
+436,Bangladesh,MONO,3,790,Salon VR,pong
+496,Mexico,MONO,4,268,Salon 4,pong
+8,Japan,MONO,2,792,Salon 1,space invaders
+11,China,MONO,4,556,Salon Carreras,space invaders
+23,Belarus,STEREO,2,830,Salon 3,space invaders
+52,Paraguay,MONO,2,214,Salon 5,space invaders
+105,Philippines,STEREO,3,426,Salon Carreras,space invaders
+112,China,STEREO,5,888,Salon Retro,space invaders
+189,Ukraine,MONO,4,266,Salon 2021,space invaders
+235,China,MONO,4,672,Salon Retro,space invaders
+252,China,MONO,5,816,Salon 4,space invaders
+268,Brazil,STEREO,2,202,Salon 2021,space invaders
+348,South Africa,STEREO,3,956,Salon VR,space invaders
+392,Peru,STEREO,5,240,Salon 3,space invaders
+400,China,MONO,2,552,Salon 2,space invaders
+424,Russia,MONO,5,844,Salon 1,space invaders
+433,China,MONO,5,232,Salon Retro,space invaders
+450,Libya,STEREO,2,882,Salon 3,space invaders
+466,Czech Republic,MONO,5,264,Salon 1,space invaders
+468,China,STEREO,5,740,Salon 6,space invaders
+475,Philippines,MONO,2,538,Salon 4,space invaders
+46,China,STEREO,4,912,Salon 5,star wars
+84,Honduras,MONO,5,778,Salon 3,star wars
+92,Sweden,STEREO,2,720,Salon 3,star wars
+98,Indonesia,STEREO,3,958,Salon 2,star wars
+109,Bulgaria,STEREO,3,568,Salon 6,star wars
+121,New Caledonia,STEREO,2,586,Salon Retro,star wars
+127,Peru,STEREO,3,822,Salon VR,star wars
+149,Philippines,STEREO,2,300,Salon 1,star wars
+150,Philippines,STEREO,3,534,Salon Carreras,star wars
+209,Luxembourg,MONO,2,424,Salon 6,star wars
+265,China,MONO,3,338,Salon 1,star wars
+272,China,STEREO,4,482,Salon Carreras,star wars
+277,Peru,MONO,5,980,Salon 5,star wars
+301,Guatemala,MONO,2,926,Salon 2021,star wars
+330,Philippines,MONO,4,624,Salon 2021,star wars
+374,Saudi Arabia,STEREO,5,452,Salon 4,star wars
+388,Philippines,STEREO,2,224,Salon 2,star wars
+437,China,STEREO,3,626,Salon 1,star wars
+471,Philippines,STEREO,4,956,Salon VR,star wars
+480,Indonesia,MONO,3,452,Salon 6,star wars
+489,Azerbaijan,STEREO,2,946,Salon 2021,star wars
+35,Indonesia,STEREO,4,414,Salon Retro,street fighter ii
+91,Indonesia,STEREO,4,866,Salon Retro,street fighter ii
+100,China,STEREO,5,426,Salon 3,street fighter ii
+141,Guatemala,STEREO,3,792,Salon 2,street fighter ii
+145,Russia,MONO,5,708,Salon 3,street fighter ii
+172,China,MONO,4,832,Salon 2,street fighter ii
+176,Canada,STEREO,3,802,Salon Carreras,street fighter ii
+260,Slovenia,STEREO,3,988,Salon Carreras,street fighter ii
+264,Argentina,STEREO,2,578,Salon 2021,street fighter ii
+295,Dominican Republic,MONO,5,686,Salon 5,street fighter ii
+317,Indonesia,STEREO,3,472,Salon 2021,street fighter ii
+332,Russia,MONO,2,510,Salon 3,street fighter ii
+338,Brazil,MONO,3,524,Salon VR,street fighter ii
+352,Ukraine,MONO,2,518,Salon Retro,street fighter ii
+375,Brazil,MONO,2,204,Salon 3,street fighter ii
+386,Iran,STEREO,4,240,Salon 6,street fighter ii
+387,China,STEREO,2,802,Salon 3,street fighter ii
+428,Indonesia,MONO,5,396,Salon 2,street fighter ii
+431,China,MONO,5,514,Salon Retro,street fighter ii
+476,China,MONO,2,260,Salon 3,street fighter ii
+5,China,STEREO,5,886,Salon 3,tetris
+44,Russia,MONO,5,302,Salon Carreras,tetris
+57,Madagascar,MONO,3,824,Salon 5,tetris
+59,Philippines,STEREO,4,606,Salon Carreras,tetris
+81,Russia,STEREO,3,552,Salon Retro,tetris
+97,Portugal,MONO,2,314,Salon 2,tetris
+151,Thailand,MONO,4,218,Salon 5,tetris
+164,China,STEREO,4,744,Salon 3,tetris
+173,Ukraine,STEREO,3,936,Salon 4,tetris
+180,Haiti,MONO,3,732,Salon Retro,tetris
+186,Russia,MONO,3,784,Salon VR,tetris
+220,China,MONO,3,552,Salon 5,tetris
+230,Serbia,MONO,3,598,Salon 2,tetris
+308,Canada,STEREO,2,370,Salon 2,tetris
+321,Indonesia,STEREO,4,808,Salon 3,tetris
+370,Kosovo,MONO,4,662,Salon 4,tetris
+408,Russia,STEREO,4,402,Salon Retro,tetris
+417,China,MONO,3,234,Salon 5,tetris
+430,Brazil,MONO,4,884,Salon 2,tetris
+455,China,MONO,2,768,Salon 4,tetris
+461,Indonesia,MONO,2,296,Salon 6,tetris
+462,Yemen,STEREO,5,744,Salon 4,tetris
+464,China,STEREO,4,464,Salon 2021,tetris
+465,Uganda,MONO,3,658,Salon 1,tetris
+469,Iran,STEREO,5,932,Salon Retro,tetris
+483,Afghanistan,MONO,4,662,Salon 6,tetris
+495,Brazil,STEREO,5,300,Salon 3,tetris
+13,Philippines,MONO,5,248,Salon Retro,tron
+31,Kazakhstan,MONO,3,618,Salon 3,tron
+61,Ireland,MONO,3,394,Salon 1,tron
+69,Russia,MONO,5,226,Salon 1,tron
+104,Portugal,STEREO,3,602,Salon 3,tron
+117,Japan,MONO,5,974,Salon Carreras,tron
+133,Ukraine,STEREO,2,822,Salon 2021,tron
+148,Japan,STEREO,2,338,Salon 2021,tron
+185,Brazil,STEREO,3,552,Salon 2,tron
+210,Mongolia,MONO,5,720,Salon VR,tron
+213,United States,MONO,2,698,Salon 1,tron
+243,Indonesia,STEREO,2,702,Salon Retro,tron
+273,China,MONO,5,342,Salon 1,tron
+294,Indonesia,STEREO,4,926,Salon Carreras,tron
+324,Namibia,STEREO,4,416,Salon 2,tron
+344,Dominican Republic,MONO,3,872,Salon 2,tron
+359,Ireland,MONO,4,668,Salon VR,tron
+411,China,STEREO,2,858,Salon 3,tron
+434,Mauritania,MONO,5,802,Salon Carreras,tron
+438,Pakistan,STEREO,2,388,Salon 4,tron
+481,Indonesia,MONO,5,976,Salon Retro,tron
+10,Indonesia,STEREO,2,640,Salon 2021,virtua cop
+18,Sweden,MONO,2,760,Salon 2021,virtua cop
+19,Ethiopia,MONO,2,210,Salon 6,virtua cop
+24,Sri Lanka,STEREO,5,666,Salon 1,virtua cop
+45,Indonesia,STEREO,3,630,Salon 6,virtua cop
+54,Greece,MONO,2,908,Salon 2021,virtua cop
+64,Japan,MONO,3,520,Salon 2,virtua cop
+82,New Zealand,STEREO,4,412,Salon 6,virtua cop
+101,Estonia,MONO,4,430,Salon 3,virtua cop
+111,Russia,MONO,3,858,Salon Carreras,virtua cop
+122,Portugal,STEREO,3,212,Salon 1,virtua cop
+129,Peru,STEREO,2,844,Salon 3,virtua cop
+190,Philippines,STEREO,3,750,Salon 4,virtua cop
+216,Indonesia,MONO,2,232,Salon Retro,virtua cop
+236,Bulgaria,MONO,4,942,Salon VR,virtua cop
+253,China,MONO,5,660,Salon 1,virtua cop
+282,Malaysia,MONO,4,842,Salon 1,virtua cop
+307,Sweden,MONO,2,758,Salon 3,virtua cop
+314,Indonesia,STEREO,2,290,Salon 4,virtua cop
+357,Comoros,MONO,2,696,Salon Carreras,virtua cop
+358,Costa Rica,STEREO,4,966,Salon Carreras,virtua cop
+373,Russia,STEREO,2,594,Salon 2,virtua cop
+394,Brazil,MONO,5,390,Salon 6,virtua cop
+407,Poland,MONO,2,430,Salon VR,virtua cop
+486,Netherlands,STEREO,2,326,Salon 2021,virtua cop
+506,arg,STEREO,20,2,2,sasdadadasdasdasd

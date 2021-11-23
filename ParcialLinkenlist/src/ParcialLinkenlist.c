@@ -16,40 +16,88 @@
 #include "Controller.h"
 /****************************************************
     Menu:
-     1. Cargar los datos de los empleados desde el archivo data.csv (modo texto).
-     2. Alta de arcade
-     3. Modificar datos arcade
-     5. Baja de arcade
-     6. Listar arcades
-     7. Ordenar empleados
-     8. Guardar los datos de los empleados en el archivo data.csv (modo texto).
-     9. Guardar los datos de los empleados en el archivo data2.dat (modo binario).
+        Cargar los datos de los empleados desde el archivo data.csv (modo texto).
+     1. Alta de arcade
+     2. Modificar datos arcade
+     3. Baja de arcade
+     4. IMPRIMIR ARCADES ordenados por nombre de juego
+     5. Generar archivo con JUEGOS
+     6. Generar un archivo con arcades “Multijugador” (mas de 1 jugador)
+     7. Actualizar cantidad de fichas.
     10. Salir
 *****************************************************/
 int main(void) {
 	setbuf(stdout,NULL);
+	int flag='y';
 	LinkedList* listaArcades = ll_newLinkedList();
-	int opcion;
+	controller_loadFromText("pruebaD.csv", listaArcades);
+
 	do{
-		switch(opcion)
+		switch(menu())
 		{
 			case 1:
+				if(controller_addArcade(listaArcades)==0)
+				{
+					controller_saveAsText("pruebaD.csv", listaArcades);
+					printf("Alta con exito!Imprima la lista para ver los cambios.\n\n");
+				}else
+				{
+					printf("Algo salio mal con el Alta \n");
+				}
+
 				break;
 			case 2:
-				controller_addArcade(listaArcades);
+				if(controller_modificarArcade(listaArcades)==0)
+				{
+					controller_saveAsText("pruebaD.csv", listaArcades);
+				}else
+				{
+					printf("Algo salio mal con la modificacion \n");
+				}
 				break;
 			case 3:
-				controller_listArcade(listaArcades);
+				if(controller_removeArcade(listaArcades)==0)
+				{
+				controller_saveAsText("pruebaD.csv", listaArcades);
+				}else
+				{
+					printf("Algo salio mal con la baja \n");
+				}
+
 				break;
 			case 4:
-				controller_modificarArcade(listaArcades);
+				if(controller_sortEmployee(listaArcades)==0)
+				{
+					printf("[--Ordenamiento exitoso--]\n");
+				}
 				break;
 			case 5:
-				controller_imprimirJuegosSinRepetir(listaArcades);
+				if(controller_loadFromTextJuegos("juegos.txt",listaArcades)==0)
+				{
+					printf("[---Archivo de texto con todos los juegos sin repetir creado exitosamente---]\n");
+				}
+				break;
+			case 6:
+				if(controller_filtrarArcades(listaArcades)==0)
+				{
+					printf("[---Se Generaro un archivo con arcades “Multijugador” (mas de 1 jugador)exitosamente---]\n");
+				}
+				break;
+			case 7:
+				if(controller_actualizarCantidadFichas(listaArcades)==0)
+				{
+					printf("[---se duplico el valor de cantidad de fichas de todos los arcades.---]\n");
+				}
+				break;
+			case 8:
+				controller_listArcade(listaArcades);
+				break;
+			case 9:
+				flag = 'n';
+				printf("Fin del programa\n");
 				break;
 		}
-	utn_getNumero(&opcion, "Ingrese una opcion de l-10: ", "Dato invalido \n", 1, 10, 5);
-	}while(opcion!=10);
+	}while(flag=='y');
 
 
 

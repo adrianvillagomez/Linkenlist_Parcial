@@ -625,7 +625,7 @@ int ll_sort(LinkedList* this, int (*pFunc)(void* ,void*), int order)
     return returnAux;
 
 }
-int ll_map(LinkedList* this,int (*pFunc)(void*))
+int ll_map(LinkedList* this,void (*pFunc)(void*))
 {
 	int retorno=-1;
 	int i;
@@ -641,18 +641,43 @@ int ll_map(LinkedList* this,int (*pFunc)(void*))
 			//tomo el elemento
 		{
 			pAux=ll_get(this, i);
-			if(pAux!=NULL)
-			{
+
 				//MAPEO
 				pFunc(pAux);
-			}
+		}
+		retorno=0;
+	}
+	return retorno;
+}
+
+/*int ll_map(LinkedList* this,void (*pFunc)(void*))
+{
+	int retorno=-1;
+	int i;
+	void* pAux;
+	//verificar nulidad
+	//recorrer lista
+	//tomar el elemento
+	//tomo el elemento lo mapeo
+	if(this!=NULL && pFunc!=NULL)
+	{
+		//RECORRO LA LISTA
+		for(i=0;i<ll_len(this);i++)
+			//tomo el elemento
+		{
+			pAux=ll_get(this, i);
+		//	if(pAux!=NULL)
+			//{
+				//MAPEO
+				pFunc(pAux);
+			//}
 		}
 		retorno=0;
 	}
 	return retorno;
 
-}
-int ll_filter (LinkedList* this , int (pFunc)(void*))
+}*/
+/*int ll_filter (LinkedList* this , int (pFunc)(void*))
 {
 	int returnAux = -1;
 		int criterio;
@@ -677,4 +702,28 @@ int ll_filter (LinkedList* this , int (pFunc)(void*))
 		}
 
 		return returnAux;
+}*/
+LinkedList* ll_filter(LinkedList* this, int (pFunc)(void*))
+{
+	LinkedList* aux;
+	void* auxA;
+	int status;
+
+	if(this != NULL && pFunc != NULL)
+	{
+		aux = ll_newLinkedList();
+		for(int i = 0; i < ll_len(this); i++)
+		{
+			auxA = ll_get(this, i);
+			if(auxA != NULL)
+			{
+				status = pFunc(auxA);
+				if(status == 0)
+				{
+					ll_add(aux, auxA);
+				}
+			}
+		}
+	}
+	return aux;
 }
