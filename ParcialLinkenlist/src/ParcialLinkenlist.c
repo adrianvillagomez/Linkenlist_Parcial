@@ -80,7 +80,7 @@ int main(void) {
 			case 6:
 				if(controller_filtrarArcades(listaArcades)==0)
 				{
-					printf("[---Se Generaro un archivo con arcades “Multijugador” (mas de 1 jugador)exitosamente---]\n");
+					printf("[---Se Generar un archivo con arcades “Multijugador” (mas de 1 jugador)exitosamente---]\n");
 				}
 				break;
 			case 7:

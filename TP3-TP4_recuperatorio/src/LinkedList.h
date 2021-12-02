@@ -20,14 +20,14 @@
 #define __LINKEDLIST
 struct Node
 {
-    void* pElement;                 //puntero al elemento (persona, empleado, etc.)
-    struct Node* pNextNode;         //puntero al prox nodo
+    void* pElement;
+    struct Node* pNextNode;
 }typedef Node;
 
 struct LinkedList
 {
     Node* pFirstNode;
-    int size;                       //cada vez que agrego o elimino un elemento size++/--
+    int size;
 }typedef LinkedList;
 #endif
 
@@ -35,33 +35,24 @@ struct LinkedList
 
 //Publicas
 LinkedList* ll_newLinkedList(void);
-int ll_len(LinkedList* this);                                       //devuelve el valor del campo int size
+int ll_len(LinkedList* this);//LARGO DE LA LISTA
 Node* test_getNode(LinkedList* this, int nodeIndex);
 int test_addNode(LinkedList* this, int nodeIndex,void* pElement);
-int ll_add(LinkedList* this, void* pElement);
-void* ll_get(LinkedList* this, int index);
+int ll_add(LinkedList* this, void* pElement);//RECIBE LA LISTA Y RECIBE EL ELEMENTO QUE DESEA GUARDAR AL FINAL DE LA LISTA//agrega
+void* ll_get(LinkedList* this, int index);//DEVUELVE EL PUNTERO A NUESTRO ELEMENTO(DONDE SE ENCUENTRA NUESTRO ELEMNETO EN NUESTA MEMORIA)RECIBE UN INDICE(LA POSICION)/PARA BUSCAR AL EMPLEADO
 int ll_set(LinkedList* this, int index,void* pElement);
 int ll_remove(LinkedList* this,int index);
 int ll_clear(LinkedList* this);
 int ll_deleteLinkedList(LinkedList* this);
 int ll_indexOf(LinkedList* this, void* pElement);
 int ll_isEmpty(LinkedList* this);
-int ll_push(LinkedList* this, int index, void* pElement);
-void* ll_pop(LinkedList* this,int index);                           //elimina un elemento (los enlaces a ese elemento) y devuelve un puntero a ese elemento
+int ll_push(LinkedList* this, int index, void* pElement);//para agregar donde quiera
+void* ll_pop(LinkedList* this,int index);// saca de la lista y devuelve lo que habia en ese lugar
 int ll_contains(LinkedList* this, void* pElement);
 int ll_containsAll(LinkedList* this,LinkedList* this2);
 LinkedList* ll_subList(LinkedList* this,int from,int to);
 LinkedList* ll_clone(LinkedList* this);
 int ll_sort(LinkedList* this, int (*pFunc)(void* ,void*), int order);
+int menu(void);
 
-//int (*Func)(void*);
-/*
- * //el map modifica o añade datos a los campos de una estructura atravezs de una funcion.
-	//deveulve una lista con los campos de la estructura ya modificados
- * */
-int ll_map(LinkedList* this,void (*pFunc)(void*));
-//int ll_filter (LinkedList* this , int (pFunc)(void*));
-/*
- * /crea una nueva list filtadra con los datos por funcion.
- * */
-LinkedList* ll_filter(LinkedList* this, int (pFunc)(void*));
+
